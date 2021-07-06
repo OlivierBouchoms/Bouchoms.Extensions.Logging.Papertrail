@@ -11,6 +11,7 @@
         <RepositoryType>Git</RepositoryType>
         <PackageTags>papertrail, logging</PackageTags>
         <Description>NuGet package that simplifies logging to Papertrail</Description>
+        <PackageVersion>1.0.0</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
