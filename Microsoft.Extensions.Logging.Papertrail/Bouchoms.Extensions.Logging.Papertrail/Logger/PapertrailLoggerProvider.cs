@@ -1,7 +1,8 @@
 using System.Collections.Concurrent;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Microsoft.Extensions.Logging.Papertrail
+namespace Bouchoms.Extensions.Logging.Papertrail
 {
     public class PapertrailLoggerProvider : ILoggerProvider
     {

@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.Extensions.Logging;
 
-namespace Microsoft.Extensions.Logging.Papertrail
+namespace Bouchoms.Extensions.Logging.Papertrail
 {
     public class PapertrailOptions
     {

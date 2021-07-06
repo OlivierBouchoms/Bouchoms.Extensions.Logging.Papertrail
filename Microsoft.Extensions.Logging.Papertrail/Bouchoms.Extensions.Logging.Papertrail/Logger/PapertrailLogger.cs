@@ -5,8 +5,9 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
-namespace Microsoft.Extensions.Logging.Papertrail
+namespace Bouchoms.Extensions.Logging.Papertrail
 {
     public class PapertrailLogger : ILogger
     {

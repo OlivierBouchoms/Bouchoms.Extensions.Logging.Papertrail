@@ -3,9 +3,10 @@ using System.IO;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Configuration;
 
-namespace Microsoft.Extensions.Logging.Papertrail
+namespace Bouchoms.Extensions.Logging.Papertrail
 {
     public static class PapertrailLoggerFactoryExtensions
     {
@@ -13,7 +14,7 @@ namespace Microsoft.Extensions.Logging.Papertrail
         private static readonly string TokenKey = "PAPERTRAIL_ACCESS_TOKEN";
         private static readonly string LogLevelKey = "PAPERTRAIL_LOG_LEVEL";
 
-        private static readonly string AppSettingsSection = "Microsoft.Extensions.Logging.Papertrail";
+        private static readonly string AppSettingsSection = "Bouchoms.Extensions.Logging.Papertrail";
 
         /// <summary>
         /// Configures logging to Papertrail for the ILoggingBuilder

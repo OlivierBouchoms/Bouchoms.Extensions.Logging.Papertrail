@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.Logging.Papertrail", "Microsoft.Extensions.Logging.Papertrail\Microsoft.Extensions.Logging.Papertrail.csproj", "{87AA42A0-DBEA-4D35-9033-39BC64495081}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bouchoms.Extensions.Logging.Papertrail", "Bouchoms.Extensions.Logging.Papertrail\Bouchoms.Extensions.Logging.Papertrail.csproj", "{87AA42A0-DBEA-4D35-9033-39BC64495081}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
