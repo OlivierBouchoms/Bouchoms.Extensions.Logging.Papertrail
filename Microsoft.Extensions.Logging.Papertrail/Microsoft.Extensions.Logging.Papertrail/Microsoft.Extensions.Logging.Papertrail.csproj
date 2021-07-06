@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
         <LangVersion>9</LangVersion>
-        <Title>Microsoft.Extensions.Logging.Papertrail</Title>
+        <Title>Bouchoms.Extensions.Logging.Papertrail</Title>
         <Authors>Olivier Bouchoms</Authors>
         <PackageProjectUrl>https://github.com/OlivierBouchoms/Microsoft.Extensions.Logging.Papertrail</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/OlivierBouchoms/Microsoft.Extensions.Logging.Papertrail/blob/master/LICENSE</PackageLicenseUrl>
