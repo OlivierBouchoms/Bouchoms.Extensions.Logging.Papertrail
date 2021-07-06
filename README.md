@@ -6,7 +6,7 @@ NuGet package that simplifies logging to Papertrail when using Microsoft.Extensi
 
 ### Adding dependency
 
-// TODO
+NuGet: https://www.nuget.org/packages/Bouchoms.Extensions.Logging.Papertrail/
 
 ### Configuration
 Add the configuration to your `appsettings.json` file.
