@@ -17,7 +17,7 @@ namespace Microsoft.Extensions.Logging.Papertrail
 
         private readonly string _authorization;
         
-        private readonly string _microservice;
+        private readonly string _application;
 
         // Four spaces indent
         private const string Indent = "    ";
@@ -27,7 +27,7 @@ namespace Microsoft.Extensions.Logging.Papertrail
             _name = name;
             _options = options;
             _authorization = Convert.ToBase64String(Encoding.ASCII.GetBytes(options.AccessToken));
-            _microservice = Assembly.GetEntryAssembly()?.GetName().Name;
+            _application = Assembly.GetEntryAssembly()?.GetName().Name;
         }
 
         public IDisposable BeginScope<TState>(TState state) => default;
@@ -40,7 +40,7 @@ namespace Microsoft.Extensions.Logging.Papertrail
                 return;
             }
 
-            string text = $"{Indent}{_microservice}\n \n{_name} - {formatter(state, exception)}";
+            string text = $"{Indent}{_application}\n \n{_name} - {formatter(state, exception)}";
             
             ThreadPool.QueueUserWorkItem(async _ => await DoLog(text));
         }
