@@ -10,6 +10,7 @@
         <RepositoryUrl>https://github.com/OlivierBouchoms/Microsoft.Extensions.Logging.Papertrail</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
         <PackageTags>papertrail, logging</PackageTags>
+        <Description>NuGet package that simplifies logging to Papertrail</Description>
     </PropertyGroup>
 
     <ItemGroup>
