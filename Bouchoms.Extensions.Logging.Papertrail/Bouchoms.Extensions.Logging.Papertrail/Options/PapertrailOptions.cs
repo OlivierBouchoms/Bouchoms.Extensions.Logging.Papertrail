@@ -11,7 +11,6 @@ namespace Bouchoms.Extensions.Logging.Papertrail
         [Required]
         public string Url { get; set; }
         
-        [Required]
-        public LogLevel LogLevel { get; set; }
+        public static readonly string ConfigurationSection = "Bouchoms.Extensions.Logging.Papertrail";
     }
 }
