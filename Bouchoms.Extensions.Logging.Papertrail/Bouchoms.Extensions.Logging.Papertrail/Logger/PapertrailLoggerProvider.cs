@@ -4,7 +4,6 @@ using Microsoft.Extensions.Options;
 
 namespace Bouchoms.Extensions.Logging.Papertrail
 {
-    }
     [ProviderAlias("Papertrail")]
     public class PapertrailLoggerProvider : ILoggerProvider
     {
