@@ -11,7 +11,7 @@ NuGet: https://www.nuget.org/packages/Bouchoms.Extensions.Logging.Papertrail/
 #### .NET 6:
 
 ```
-dotnet add package Bouchoms.Extensions.Logging.Papertrail --version 6.0.0
+dotnet add package Bouchoms.Extensions.Logging.Papertrail --version 6.0.0-CI-20230221-214036
 ```
 
 ### Configuration
