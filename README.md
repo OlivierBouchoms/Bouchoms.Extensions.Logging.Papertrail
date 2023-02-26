@@ -36,7 +36,7 @@ builder.Logging.AddConsole();
 builder.Logging.AddPapertrail();
 
 builder.Services.AddOptions<PapertrailOptions>()
-                .Bind(configuration.GetSection(PapertrailOptions.ConfigurationSection))
+                .Bind(builder.Configuration.GetSection(PapertrailOptions.ConfigurationSection))
                 .ValidateDataAnnotations();
 ```
 
