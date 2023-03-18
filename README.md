@@ -1,6 +1,6 @@
-# Microsoft.Extensions.Logging.Papertrail
+# Bouchoms.Extensions.Logging.Papertrail
 
-NuGet package that simplifies logging to Papertrail when using Microsoft.Extensions.Logging.
+NuGet package that simplifies logging to [Papertrail](https://www.papertrail.com/) when using Microsoft.Extensions.Logging.
 
 ## Getting started
 
