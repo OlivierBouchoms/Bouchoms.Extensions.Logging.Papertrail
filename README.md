@@ -4,18 +4,17 @@ NuGet package that simplifies logging to [Papertrail](https://www.papertrail.com
 
 ## Getting started
 
-### Adding dependency
+### NuGet
 
-NuGet: https://www.nuget.org/packages/Bouchoms.Extensions.Logging.Papertrail/
+https://www.nuget.org/packages/Bouchoms.Extensions.Logging.Papertrail/
 
-#### .NET 6:
+### .NET 8
 
 ```
-dotnet add package Bouchoms.Extensions.Logging.Papertrail --version 6.0.0
+dotnet add package Bouchoms.Extensions.Logging.Papertrail --version 8.0.0
 ```
 
-### Configuration
-Add the configuration to your `appsettings.json` file. It's also possible to use other configuration sources. See [Configuration in ASP NET Core 6.0](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0).
+For development environments, add the configuration to your `appsettings.json` file. This feature is not safe for realworld usage. Refer to [Security and user secrets](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-8.0#security-and-user-secrets) documentation to safely configure the credentials for realworld usage.
 
 ```
 {
@@ -25,6 +24,25 @@ Add the configuration to your `appsettings.json` file. It's also possible to use
   },
 }
 ```
+
+### .NET 6
+
+```
+dotnet add package Bouchoms.Extensions.Logging.Papertrail --version 6.0.0
+```
+
+For development environments, add the configuration to your `appsettings.json` file. This feature is not safe for realworld usage. Refer to [Security and user secrets](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0#security-and-user-secrets) documentation to safely configure the credentials for realworld usage.
+
+```
+{
+  "Bouchoms.Extensions.Logging.Papertrail": {
+    "AccessToken": "your-access-token",
+    "Url": "your-papertrail-url"
+  },
+}
+```
+
+### Code
 
 In your `Startup` class:
 

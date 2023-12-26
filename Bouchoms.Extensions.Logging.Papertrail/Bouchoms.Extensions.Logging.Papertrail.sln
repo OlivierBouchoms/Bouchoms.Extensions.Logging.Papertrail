@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bouchoms.Extensions.Logging.Papertrail", "Bouchoms.Extensions.Logging.Papertrail\Bouchoms.Extensions.Logging.Papertrail.csproj", "{87AA42A0-DBEA-4D35-9033-39BC64495081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bouchoms.Extensions.Logging.Papertrail.Sample.Net8", "Bouchoms.Extensions.Logging.Papertrail.Sample.Net8\Bouchoms.Extensions.Logging.Papertrail.Sample.Net8.csproj", "{241A24E2-3D9B-453C-A181-9E2550387512}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +15,9 @@ Global
 		{87AA42A0-DBEA-4D35-9033-39BC64495081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87AA42A0-DBEA-4D35-9033-39BC64495081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87AA42A0-DBEA-4D35-9033-39BC64495081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241A24E2-3D9B-453C-A181-9E2550387512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241A24E2-3D9B-453C-A181-9E2550387512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241A24E2-3D9B-453C-A181-9E2550387512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241A24E2-3D9B-453C-A181-9E2550387512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
