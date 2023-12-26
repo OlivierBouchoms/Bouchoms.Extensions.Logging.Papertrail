@@ -10,10 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Bouchoms.Extensions.Logging.Papertrail\Bouchoms.Extensions.Logging.Papertrail.csproj" />
+    <PackageReference Include="Bouchoms.Extensions.Logging.Papertrail" Version="8.0.0-CI-20231226-110323" />
   </ItemGroup>
 
 </Project>
